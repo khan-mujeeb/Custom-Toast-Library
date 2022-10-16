@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toastView"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:padding="6dp"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/toastImage"
+        android:layout_width="34dp"
+        android:src="@drawable/ic_baseline_waves_24"
+        android:layout_height="34dp"/>
+    <TextView
+        android:id="@+id/ToastText"
+        android:padding="10dp"
+
+        android:layout_width="match_parent"
+        android:text="This is message"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
